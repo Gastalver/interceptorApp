@@ -1,5 +1,10 @@
 # InterceptorApp
 
+Lo que enseña se aprecia en la consola de desarrollador del navegador.
+Hace un request a una api publica con un error en la dirección, para provocarlo y que se vea como se gestionan los errores con el interceptor.
+También añade una cabecera con un token ficticio.
+Si se quiere ver el request sin errores hay que cambiar la dirección de la url en el usuarios.service a 'https://reqres.in/api/user' 
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.1.
 
 ## Development server
